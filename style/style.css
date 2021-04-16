@@ -1,3 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* apllique sur toute la page */
 body {
-  background-color: seagreen;
+  font-family: "Roboto";
+}
+
+/* nav .before */
+.before {
+  width: 100vw;
+  height: 30px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  font-size: 12px;
+  color: rgb(139, 136, 136);
+}
+.before div{
+  width: 50%;
+  margin: 0 25%;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  padding: 0 12px;
+
+
+}
+.before p {
+  text-align: center;
+}
+
+.before ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.before li {
+  margin-right: 25px;
+}
+
+.before i {
+  color: rgb(238, 158, 9);
+}
+
+/* header */
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  padding: 18px;
+  position: sticky;
+  top: 30px;
+}
+
+.head h1 {
+  font-size: 35px;
+  color: rgb(238, 158, 9);
+}
+
+.head ul{
+  display: flex;
+}
+
+.head li {
+  margin-right: 2rem;
+}
+
+.head i {
+  margin-left: 2rem;
+}
+
+/* section */
+.section {
+  background: no-repeat;
+
+  background-image: url(../img/tn.png);
+  min-height: 800px ;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.section img {
+  width: 10%;
+  margin: 2rem 45%;
+}
+
+.section h1 {
+  font-size: 3rem;
+}
+
+.section p {
+  font-size: .7rem;
+}
+
+.section div {
+  margin-top: 10rem;
+}
+
+.section div a {
+  border: 2px solid white ;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: white;
+}
+.section div a:hover {
+  font-weight: bold;
+  border: 4px solid rgb(139, 136, 136);
+  color: rgb(139, 136, 136);
 }
